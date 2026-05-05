@@ -80,6 +80,8 @@ We evaluate different configurations across models with and without NED, along w
 | Longformer  | ✅       | ✅          | ✅       |
 
 
+Rigel model is included as a baseline model for comparison. Its reported results are taken from prior work and not reimplemented due to its architectural complexity.
+
 ---
 
 
