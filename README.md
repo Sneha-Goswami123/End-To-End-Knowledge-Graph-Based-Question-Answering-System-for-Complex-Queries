@@ -97,13 +97,14 @@ Rigel model is included as a baseline model for comparison. Its reported results
 
 ## 📈 Key Findings
 
-- T5 performs competitively even **without KG**
-- Longformer benefits from **longer context + KG**
-- NED improves **answer grounding**
+- T5 performs competitively even without KG due to strong pretrained knowledge.
+- KG integration improves performance only when relevant and high-quality facts are retrieved.
+- Longformer benefits significantly from KG context due to its ability to process long inputs.
+- NED improves answer grounding by focusing retrieval on relevant entities.
 - Reranking:
-  - significantly improves **Hit@5**
-  - may slightly reduce **Hit@1**
-- KG context improves **candidate diversity**
+  - significantly improves Hit@5 (candidate coverage)
+  - may slightly reduce Hit@1 due to reordering effects
+- KG context increases candidate diversity but may introduce noise if retrieval is not precise.
 
 ---
 
