@@ -183,4 +183,8 @@ This project demonstrates that **transformer-based models can effectively perfor
 
 ---
 
+## 🔬 Additional Approach (Semantic Parsing)
 
+In addition to the language model-based approach, the project also explores a semantic parsing-based KGQA framework. This approach focuses on generating structured SPARQL queries from natural language questions and executing them over a knowledge graph.
+
+Transfer learning techniques are applied using datasets such as LC-QuAD2 and QALD to improve generalization. This method enables structured reasoning over knowledge graphs and complements the language model-based approach.
